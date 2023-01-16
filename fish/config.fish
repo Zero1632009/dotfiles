@@ -3,3 +3,6 @@ if status is-interactive
 end
 
 set fish_greeting
+
+# StarShip
+#starship init fish | source
