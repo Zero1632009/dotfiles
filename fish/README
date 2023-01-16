@@ -1,0 +1,4 @@
+# Change Shell
+```bash
+chsh -s /bin/fish
+```
