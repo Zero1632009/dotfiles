@@ -110,10 +110,36 @@ schemes:
       magenta: '#d3869b'
       cyan:    '#89b482'
       white:   '#dfbf8e'
+  OneDark: &OneDark
+    primary:
+      background: "#1E222A"
+      foreground: "#ABB2BF"
+      
+    normal:
+      black: "#1E222A"
+      red: "#E06C75"
+      green: "#98C379"
+      yellow: "#E5C07B"
+      blue: "#61AFEF"
+      magenta: "#C678DD"
+      cyan: "#56B6C2"
+      white: "#ABB2BF"
+
+    bright:
+      black: "#5C6370"
+      red: "#BE5046"
+      green: "#7A9F60"
+      yellow: "#D19A66"
+      blue: "#3B84C0"
+      magenta: "#9A52AF"
+      cyan: "#3C909B"
+      white: "#828997"
+
 
 ## Set Themes
 
 # TokyoNight
 # GruvboxDark
+# OneDark
 
-colors: *GruvboxDark
+colors: *OneDark
